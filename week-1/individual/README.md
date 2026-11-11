@@ -17,15 +17,23 @@ AI soovitusel kasutasin LOWER() ja TRIM() funktsioone. LOWER() ühtlustab suur- 
 
 [Vaata minu SQL-päringuid](week1_customers_exploration.sql)
 
-Tõestuspilt unikaalsete klientide päringust
+### Tõestuspilt unikaalsete klientide päringust
 
 ![Unikaalsed kliendid](unikaalsed%20kliendid.jpg)
 
+### Tõestuspilt unikaalsete linnade päringust
+
 ![Unikaalsed linnad](unikaalsed%20linnad.jpg)
+
+### Tõestuspilt e-mailide info päringust
 
 ![E-mailide info](emailide%20info.jpg)
 
+### Tõestuspilt puuduvatest eenimede päringust
+
 ![Puuduvad eesnimed](puuduvad%20eesnimed.jpg)
+
+### Tõestuspilt registreerimise kuupäevade päringust
 
 ![Registreerimise kuupäevad](registreerimise%20date.jpg)
 
