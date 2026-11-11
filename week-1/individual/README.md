@@ -8,6 +8,14 @@ Alustasin ülesannet UrbanStyle'i juhi Toomase küsimustest ega vaadanud esialgu
 Linnade analüüsimisel märkasin ise, et sama linn esines erinevas kirjapildis. Kuna ma ei teadnud veel, kuidas SQL-is selliseid väärtusi ühtlustada, küsisin AI-lt sobiva lahenduse kohta. 
 AI soovitusel kasutasin LOWER() ja TRIM() funktsioone. LOWER() ühtlustab suur- ja väiketähed ning TRIM() eemaldab teksti algusest ja lõpust liigsed tühikud.
 
+## Peamiselt õppisin
+
+Õppisin sql süntaksit ja selle ülesehituse loogikat paremini tundma. See on ka üks suurimaid eesmärke siinses koolituses ja minu igapäeva töös kõige suurem vajadus.
+
+## Failid
+
+[Vaata minu SQL-päringuid](week1_customers_exploration.sql)
+
 ![Unikaalsed kliendid](unikaalsed%20kliendid.jpg)
 
 ![Unikaalsed linnad](unikaalsed%20linnad.jpg)
@@ -17,3 +25,7 @@ AI soovitusel kasutasin LOWER() ja TRIM() funktsioone. LOWER() ühtlustab suur- 
 ![Puuduvad eesnimed](puuduvad%20eesnimed.jpg)
 
 ![Registreerimise kuupäevad](registreerimise%20date.jpg)
+
+
+## Meeskonna töö
+- [Link meeskonna Data Landscape slaidile]
