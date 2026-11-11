@@ -17,6 +17,8 @@ AI soovitusel kasutasin LOWER() ja TRIM() funktsioone. LOWER() ühtlustab suur- 
 
 [Vaata minu SQL-päringuid](week1_customers_exploration.sql)
 
+Tõestuspilt unikaalsete klientide päringust
+
 ![Unikaalsed kliendid](unikaalsed%20kliendid.jpg)
 
 ![Unikaalsed linnad](unikaalsed%20linnad.jpg)
