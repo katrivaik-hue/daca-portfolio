@@ -1,6 +1,6 @@
 # Nädal 1: SQL Basics -- UrbanStyle'i andmete uurimine
 
-Role B: Customer Data Explorer
+Roll B: Kliendiandmed
 
 ## Mida ma tegin?
 
