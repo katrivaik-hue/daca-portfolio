@@ -1,0 +1,2 @@
+-- Week 1: Customer Data Exploration
+-- Role B: Customer Data Explorer
