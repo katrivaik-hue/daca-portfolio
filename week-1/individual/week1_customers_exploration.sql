@@ -20,13 +20,13 @@ FROM customers;
 -- Kontrollisin, kui paljudel klientidel on e-mail olemas,
 -- kui palju on unikaalseid e-maile ja kas andmetes esineb duplikaate.
 
-SELECT
-    COUNT(*) AS kliente_kokku,
-    COUNT(email) AS emaile_olemas,
-    COUNT(*) - COUNT(email) AS puuduvad_emailid,
-    COUNT(DISTINCT email) AS unikaalseid_emaile,
-    COUNT(email) - COUNT(DISTINCT email) AS duplikaadid
-FROM customers;
+select 
+  count(*) AS kliente_kokku,
+  count(*) - count(email) as puuduvad_emailid,
+  count(email) as emaile_olemas,
+  count(distinct email) as unikaalseid_emaile,
+  count(email) - count(distinct email) as duplikaadid
+from customers;
 
 -- Tulemus:
 -- kliente kokku 3150
