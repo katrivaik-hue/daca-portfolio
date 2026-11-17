@@ -163,6 +163,39 @@ FROM sales_test
 WHERE sale_date > CURRENT_DATE
    OR sale_date < DATE '2020-01-01';
 
+--tegin veel eraldi kontrolli kuupäevadele, mis on hilisemad tänasest kuupäevast või varasemad kui 01.01.2020. tulemuseks sain 0.
+
+SELECT COUNT(*) AS vigased_kuupaevad
+FROM sales_test
+WHERE sale_date > CURRENT_DATE
+   OR sale_date < DATE '2020-01-01';
+
+--kontrollin, mis kustutamisele läheks, tulemuseks 5116 rida
+
+SELECT *
+FROM sales_test
+WHERE id NOT IN (
+    SELECT MIN(id)
+    FROM sales_test
+    GROUP BY invoice_id
+);
+
+-- eemaldan korduvad invoice_id read, jättes iga invoice_id kohta alles väikseima id-ga rea
+
+DELETE FROM sales_test
+WHERE id NOT IN (
+    SELECT MIN(id)
+    FROM sales_test
+    GROUP BY invoice_id
+);
+
+--kontrollisin allejäänud ridade arvu, tulemus 10118
+
+SELECT COUNT(*)
+FROM sales_test;
+
+
+
 
 
 
