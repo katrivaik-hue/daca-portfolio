@@ -1,3 +1,5 @@
+--TOOMASE PUHASTAMISRAPORT, päringud
+
 --U0 samm 4 ridu tabelis sales
 select count(*)
 from sales;
