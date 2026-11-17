@@ -76,14 +76,16 @@ Lisaks kontrollisin, kas andmetes on tänasest hilisemaid kuupäevi või kuupäe
 ## 7. Kokkuvõte
 
 ### Peamised leiud
-- a
-- b
-- c
+- invoice_id põhise kontrolliga tuvastasin 5116 eemaldatavat korduvat müügirida.
+- customer_id oli NULL 1487 real, kuid jaemüügi kontekstis ei tähenda see automaatselt andmeviga, sest osa oste võib olla tehtud tuvastamata kliendile.
+- quantity ja unit_price väärtustes ei leidunud 0 ega negatiivseid väärtusi ning teistes kontrollitud väljades NULL-väärtusi ei olnud.
+- 50 müügirida olid pärast andmestiku lubatud lõppkuupäeva 28.02.2025.
+
 ### Puhastamisel tehtud tegevused
-- a
-- b
-- c
+- Eemaldasin 5116 korduvat müügirida, jättes iga invoice_id kohta alles väikseima id väärtusega rea.
+- Pärast duplikaatide eemaldamist vähenes sales_test ridade arv 15 234 realt 10 118 reale.
+- customer_id NULL-väärtusi ei muutnud, sest need võivad olla äriliselt korrektsed.
+  
 ### Analüüsist välja jäetud andmed
-- a
-- b
-- c
+- 50 müügirida kuupäevaga pärast 28.02.2025 jäid sales_test tabelisse alles, kuid need tuleb analüüsist kuupäevafiltriga välja jätta.
+- Muude kontrollide põhjal ei tuvastanud ma andmeid, mida oleks vaja analüüsist välja jätta.
