@@ -85,6 +85,7 @@ Lisaks kontrollisin, kas andmetes on tänasest hilisemaid kuupäevi või kuupäe
 - Eemaldasin 5116 korduvat müügirida, jättes iga invoice_id kohta alles väikseima id väärtusega rea.
 - Pärast duplikaatide eemaldamist vähenes sales_test ridade arv 15 234 realt 10 118 reale.
 - customer_id NULL-väärtusi ei muutnud, sest need võivad olla äriliselt korrektsed.
+- Pärast puhastusloogika kontrollimist sales_test tabelis rakendasin sama puhastuse ka algsele sales tabelile. Eemaldasin 5116 üleliigset rida ning pärast puhastamist jäi sales tabelisse 10 118 rida.
   
 ### Analüüsist välja jäetud andmed
 - 50 müügirida kuupäevaga pärast 28.02.2025 jäid sales_test tabelisse alles, kuid need tuleb analüüsist kuupäevafiltriga välja jätta.
