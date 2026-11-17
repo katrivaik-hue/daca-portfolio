@@ -65,6 +65,15 @@ from customers;
 
 
 
+-- WEEK 2, Roll A: Müügiandmete puhastamine
+
+-- SAMM 1: Testkoopia loomine
+
+DROP TABLE IF EXISTS sales_test;
+
+CREATE TABLE sales_test AS
+SELECT * FROM sales;
+
 
 
 
