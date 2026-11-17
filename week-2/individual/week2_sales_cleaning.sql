@@ -194,29 +194,27 @@ WHERE id NOT IN (
 SELECT COUNT(*)
 FROM sales_test;
 
+-- seejärel liikusin sales tabeli puhastamise juurde
+-- kontrollin enne päris sales tabeli puhastamist, mitu rida läheks eemaldamisele
 
+SELECT COUNT(*)
+FROM sales
+WHERE id NOT IN (
+    SELECT MIN(id)
+    FROM sales
+    GROUP BY invoice_id
+);
 
+-- eemaldan sales tabelist korduvad invoice_id read, jättes iga invoice_id kohta alles väikseima id-ga rea
 
+DELETE FROM sales
+WHERE id NOT IN (
+    SELECT MIN(id)
+    FROM sales
+    GROUP BY invoice_id
+);
 
+-- kontrollin sales tabeli ridade arvu pärast puhastamist - sain oodatava tulemuse 10118
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+SELECT COUNT(*)
+FROM sales;
