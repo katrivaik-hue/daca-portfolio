@@ -21,3 +21,4 @@ Puhastamiseks lõin esmalt sales_test testkoopia, mille peal kontrollisin puhast
 ## Failid
 - [week2_sales_cleaning.sql](week2_sales_cleaning.sql)
 - [week2_sales_report.md](week2_sales_report.md)
+- [Tiimitöö slaid](https://docs.google.com/presentation/d/1xjhDgs9Knx-YogNU7mxKjI4cbaaV8NJfCxgT2Y7uz2s/edit?slide=id.p1#slide=id.p1)
