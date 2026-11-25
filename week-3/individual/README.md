@@ -13,7 +13,7 @@ Analüüsisin:
 
 ## Peamised järeldused
 
-Pood on selgelt tugevam müügikanal: ligi 2/3 kogumüügist ja ostudest tuleb poest ning ligikaudu 1/3 online-kanalist. Pood toob ka rohkem kliente ning müük kliendi kohta on seal 835,13, online-kanalis 590,12. Mõlemas kanalis tuleb enim kliente ja müüki Tallinnast, millele järgnevad Tartu ja Pärnu. Online-kanalis annab suurima müügi jalanõude kategooria, poes meeste riided. Turunduskampaaniad võiks kohandada kanali ja linna järgi.
+Müügikanaleid on 2 - pood ja online. Pood on selgelt tugevam müügikanal: ligi 2/3 kogumüügist ja ostudest tuleb poest ning ligikaudu 1/3 online-kanalist. Pood toob ka rohkem kliente ning müük kliendi kohta on seal 835,13, online-kanalis 590,12. Mõlemas kanalis tuleb enim kliente ja müüki Tallinnast, millele järgnevad Tartu ja Pärnu. Online-kanalis annab suurima müügi jalanõude kategooria, poes meeste riided. Turunduskampaaniad võiks kohandada kanali ja linna järgi.
 
 ## Failid
 
