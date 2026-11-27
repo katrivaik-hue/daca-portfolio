@@ -17,5 +17,5 @@ Müügikanaleid on 2 - pood ja online. Pood on selgelt tugevam müügikanal: lig
 
 ## Failid
 
-- [week3 müügikanalid ja kliendid](week3_roll_D_müügikanalid_ja_kliendid.sql)
+- [week3 müügikanalid ja kliendid, sql päringud](week3_roll_D_müügikanalid_ja_kliendid.sql)
 - [Tiimitöö slaid](https://docs.google.com/presentation/d/1_Ft9nK9J098MdFqELLU8sawzKJsgkvK8X-9ry-ssxhU/edit?slide=id.slide_1#slide=id.slide_1)
